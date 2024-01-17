@@ -33,9 +33,10 @@ the slides of course1 have been updated
 
 ## 环境配置
 
-按照操作系统类型安装python（官方使用的环境为3.7.6），安装方式各异。安装成功后在cmd/bash中定位到该文件夹，并使用如下命令安装依赖。
+按照操作系统类型安装python（官方使用的环境为3.7.6, but 3.8 is required for numpy-1.23.5），安装方式各异。安装成功后在cmd/bash中定位到该文件夹，并使用如下命令安装依赖。
 
 ```text
+pip3 install wheel
 pip install -r requirements.txt
 ```
 
